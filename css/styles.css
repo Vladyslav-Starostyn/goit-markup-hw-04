@@ -268,6 +268,29 @@ margin-right: 0;
     line-height: 1.18;
     text-align: center;
     letter-spacing: 0.03em;
+    margin-bottom: 16px;
+}
+.command-soc-list {
+    display: flex;
+    justify-content: center;
+}
+.command-soc-item + .command-soc-item {
+margin-left: 10px;
+}
+.command-soc-link {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    fill: #AFB1B8;
+}
+.command-soc-link:hover,
+.command-soc-link:focus {
+    background-color: var(--accent-color);
+    fill: #ffffff;
 }
 /*------------footer-----------*/
 .footer {
