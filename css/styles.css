@@ -384,13 +384,11 @@ body {
 .clients-link {
     width: 170px;
     height: 92px;
-    border: 1px solid #AFB1B8;
     border-radius: 4px;
+    border: 1px solid #AFB1B8;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-.clients-icon {
     fill: #AFB1B8;
 }
 .clients-link:hover,
