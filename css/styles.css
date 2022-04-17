@@ -400,6 +400,7 @@ body {
 .clients-link:hover,
 .clients-link:focus {
     border-color:var(--accent-color);
+    fill: var(--accent-color);
     cursor: pointer;
 }
 .clients-icon:hover,
