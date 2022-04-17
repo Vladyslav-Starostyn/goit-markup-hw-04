@@ -55,7 +55,7 @@ body {
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
-   /* outline: 1px solid black;*/
+   /* outline: 1px solid black; */
 }
 
 /*----------- Header---------*/
@@ -114,20 +114,20 @@ body {
 .header-link:focus {
     color: var(--accent-color);
 }
-
 .header-secondlist {
     display: flex;
     margin-left: auto;
 }
-
 .header-seconditem +.header-seconditem {
     margin-left: 50px;
 }
-
 .header-secondlink {
+    width: 161px;
     padding-top: 32px;
     padding-bottom: 32px;
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.43;
@@ -138,6 +138,16 @@ body {
 .header-secondlink:focus {
     color: var(--accent-color);
 }
+.header-icon {
+    margin-right: 10px;
+    fill: currentColor;
+  }
+  .tel {
+      width: 142px;
+    }
+  .Telephone {
+      flex-shrink: 0;
+    }
 /*------------section-1-----------*/
 
 .hero {
@@ -156,13 +166,7 @@ body {
     url(../imedges/studio/Img\ Hero.jpg);
     background-repeat: no-repeat;
     background-position: center;
-  
-  
 }
-.overlay {
-  
-}
-
 .hero-title {
     max-width: 696px;
     margin-left: auto;
@@ -176,7 +180,6 @@ body {
     color: #FFFFFF;
     margin-bottom: 30px;
 }
-
 .hero-button {
     padding: 10px 32px;
     font-weight: 700;
