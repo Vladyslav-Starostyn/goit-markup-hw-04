@@ -138,16 +138,22 @@ body {
 .header-secondlink:focus {
     color: var(--accent-color);
 }
-.header-icon {
+.envelope-icon {
+    width: 16px;
+    height: 12px;
+    margin-right: 10px;
+    fill: currentColor;
+}
+.telephone-icon {
+    width: 10px;
+    height: 20px;
     margin-right: 10px;
     fill: currentColor;
   }
   .tel {
       width: 142px;
     }
-  .Telephone {
-      flex-shrink: 0;
-    }
+  
 /*------------section-1-----------*/
 
 .hero {
