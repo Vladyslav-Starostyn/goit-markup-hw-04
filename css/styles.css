@@ -122,11 +122,9 @@ body {
     margin-left: 50px;
 }
 .header-secondlink {
-    width: 161px;
     padding-top: 32px;
     padding-bottom: 32px;
     display: flex;
-    justify-content: center;
     align-items: center;
     font-weight: 500;
     font-size: 14px;
@@ -153,7 +151,6 @@ body {
   .tel {
       width: 142px;
     }
-  
 /*------------section-1-----------*/
 
 .hero {
@@ -191,7 +188,7 @@ body {
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
-
+    
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
@@ -410,13 +407,13 @@ body {
 /*------------footer-----------*/
 .foter-conteiner {
     display: flex;
+    align-items: baseline;
 }
 .footer-soc-list {
     display: flex;
     justify-content: center;
 }
 .footer-soc {
-    margin-top: 12px;
     margin-left: 70px;
 }
 .footer-text {
@@ -517,7 +514,6 @@ body {
 
 .progects-button {
     padding: 6px 22px;
-
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
@@ -526,6 +522,7 @@ body {
     color: var(--color-title);
     background: #F5F4FA;
     border-radius: 4px;
+    border: none;
 }
 
 .progects-button:focus,
@@ -570,8 +567,6 @@ body {
 }
 .progects-link:hover,
 .progects-link:focus {
-    background: #FFFFFF;
-    border: 1px solid #EEEEEE;
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
     0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
